@@ -20,6 +20,8 @@
 		43560D40D1D989A85735BFDB /* libPods-PlusBit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48CD87A131C304A53EF9DD6B /* libPods-PlusBit-tvOS.a */; };
 		9695DDD0331758C5224543F5 /* libPods-PlusBit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA255F210B09F4CF1D4EC12 /* libPods-PlusBit.a */; };
 		D0C73B46381ABA5F343578B5 /* libPods-PlusBit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2518BC34A2E34F21E70EA239 /* libPods-PlusBit-tvOSTests.a */; };
+		B97BDDAAF60149BA82081518 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CB8FED0B2F41A295F453A9 /* Poppins-Regular.ttf */; };
+		1D34AD718E6041BD9A6AE39C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4F17BD0FFE4E9993AC6CED /* Poppins-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		B70B47CDA91C4B6DF0DB1DC0 /* Pods-PlusBit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlusBit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PlusBit-tvOSTests/Pods-PlusBit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		58CB8FED0B2F41A295F453A9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE4F17BD0FFE4E9993AC6CED /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				FB1DCD65EA0A7D29FEBB8E7A /* Pods */,
+				B517672CCF1F41F6AC3521EE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +202,16 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		B517672CCF1F41F6AC3521EE /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				58CB8FED0B2F41A295F453A9 /* Poppins-Regular.ttf */,
+				BE4F17BD0FFE4E9993AC6CED /* Poppins-ExtraBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +300,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +353,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B97BDDAAF60149BA82081518 /* Poppins-Regular.ttf in Resources */,
+				1D34AD718E6041BD9A6AE39C /* Poppins-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
